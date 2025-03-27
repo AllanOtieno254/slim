@@ -1,0 +1,17 @@
+Simple-AI-Chatbot/
+│── README.md                # Detailed documentation in Markdown  
+│── workflow/  
+│   ├── chatbot_workflow.json # Exported workflow file from n8n  
+│   ├── nodes/  
+│   │   ├── trigger.json      # Configuration for the trigger node  
+│   │   ├── ai_agent.json     # AI Agent node settings  
+│   │   ├── memory.json       # Simple Memory node configuration  
+│   │   ├── chat_model.json   # DeepSeek Chat Model node setup  
+│── assets/  
+│   ├── workflow_diagram.png  # Image of the chatbot workflow  
+│   ├── node_explanations.png # Visual guide to node functions  
+│── src/  
+│   ├── chatbot.py            # Python script for chatbot logic (if applicable)  
+│   ├── utils.py              # Helper functions  
+│── .gitignore                # Ignore unnecessary files  
+│── LICENSE                   # Project license  
